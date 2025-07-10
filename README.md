@@ -1,27 +1,63 @@
+# 🤖 HunlarBot
 
-# HunlarBot 🤖
+Bu bot, [@HunlarBirligi](https://t.me/HunlarBirligi) kanalına gönderilen mesajları, botun dahil olduğu tüm Telegram gruplarına otomatik olarak iletir.
 
-Bu bot, @HunlarBirligi kanalına gönderilen mesajları otomatik olarak botun dahil olduğu tüm Telegram gruplarına iletir.
+## 🚀 Özellikler
 
-## Özellikler
-- Kanal postlarını otomatik iletir
-- /start ve /help komutları vardır
-- Dinamik olarak grup kaydı yapar
-- Heroku'ya uygundur
+- Kanal postlarını otomatik olarak gruplara iletir
+- `/start` ve `/help` komutları ile bilgi sağlar
+- Dinamik olarak botun bulunduğu grupları kaydeder
+- Tamamen **bilgi amaçlı** çalışır (interaktif değil)
+- **Heroku uyumludur**
 
-## Kurulum
+---
 
-1. Bot tokenini [@BotFather](https://t.me/BotFather)'dan al
-2. Heroku hesabı oluştur
-3. Reponun kök dizinine gel ve şu komutları gir:
+## ☁️ 1- Heroku'ya Tek Tıkla Kurulum
+
+Aşağıdaki butona tıklayarak Heroku üzerinde kolayca deploy edebilirsin:
+
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/kullaniciadiniz/HunlarBot)
+
+📌 Not: Yukarıdaki linkteki `kullaniciadiniz/HunlarBot` kısmını kendi GitHub kullanıcı adı ve repo isminle değiştirmen gerekiyor.
+
+---
+
+## ⚙️ 2- Manuel Kurulum
+
+1. Reponun içindeyken şu adımları izleyin:
 
 ```bash
 heroku create hunlarbot
-heroku config:set BOT_TOKEN=your_bot_token_here
+heroku config:set BOT_TOKEN=your_telegram_bot_token
+git push heroku main# 🤖 HunlarBot
+
+Bu bot, [@HunlarBirligi](https://t.me/HunlarBirligi) kanalına gönderilen mesajları, botun dahil olduğu tüm Telegram gruplarına otomatik olarak iletir.
+
+## 🚀 Özellikler
+
+- Kanal postlarını otomatik olarak gruplara iletir
+- `/start` ve `/help` komutları ile bilgi sağlar
+- Dinamik olarak botun bulunduğu grupları kaydeder
+- Tamamen **bilgi amaçlı** çalışır (interaktif değil)
+- **Heroku uyumludur**
+
+---
+
+## ☁️ 1- Heroku'ya Tek Tıkla Kurulum
+
+Aşağıdaki butona tıklayarak Heroku üzerinde kolayca deploy edebilirsin:
+
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/kullaniciadiniz/HunlarBot)
+
+📌 Not: Yukarıdaki linkteki `kullaniciadiniz/HunlarBot` kısmını kendi GitHub kullanıcı adı ve repo isminle değiştirmen gerekiyor.
+
+---
+
+## ⚙️ 2- Manuel Kurulum
+
+1. Reponun içindeyken şu adımları izleyin:
+
+```bash
+heroku create hunlarbot
+heroku config:set BOT_TOKEN=your_telegram_bot_token
 git push heroku main
-```
-
-4. Botun çalıştığını kontrol et!
-
-## Ekstra
-- Botun düzgün çalışması için hem kanala hem gruplara admin olarak eklenmesi gerekir.
