@@ -20,7 +20,7 @@ Bu bot, [@HunlarBirligi](https://t.me/HunlarBirligi) kanalına gönderilen mesaj
 
 Aşağıdaki butona tıklayarak botu Heroku’ya tek tıkla yükleyebilirsin:
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Hunlar/HunlarBot)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Hunlar/Hunlar)
 
 > 🔁 Yukarıdaki bağlantı senin `Hunlar/HunlarBot` adlı GitHub adresine özel olarak hazırlanmıştır.
 
