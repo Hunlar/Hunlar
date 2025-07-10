@@ -16,7 +16,7 @@ Bu bot, [@HunlarBirligi](https://t.me/HunlarBirligi) kanalına gönderilen mesaj
 
 Aşağıdaki butona tıklayarak Heroku üzerinde kolayca deploy edebilirsin:
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/kullaniciadiniz/HunlarBot)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Hunlar/HunlarBot)
 
 📌 Not: Yukarıdaki linkteki `kullaniciadiniz/HunlarBot` kısmını kendi GitHub kullanıcı adı ve repo isminle değiştirmen gerekiyor.
 
