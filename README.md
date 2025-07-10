@@ -1,16 +1,27 @@
-## Hi there 👋
 
-<!--
-**Hunlar/Hunlar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# HunlarBot 🤖
 
-Here are some ideas to get you started:
+Bu bot, @HunlarBirligi kanalına gönderilen mesajları otomatik olarak botun dahil olduğu tüm Telegram gruplarına iletir.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Özellikler
+- Kanal postlarını otomatik iletir
+- /start ve /help komutları vardır
+- Dinamik olarak grup kaydı yapar
+- Heroku'ya uygundur
+
+## Kurulum
+
+1. Bot tokenini [@BotFather](https://t.me/BotFather)'dan al
+2. Heroku hesabı oluştur
+3. Reponun kök dizinine gel ve şu komutları gir:
+
+```bash
+heroku create hunlarbot
+heroku config:set BOT_TOKEN=your_bot_token_here
+git push heroku main
+```
+
+4. Botun çalıştığını kontrol et!
+
+## Ekstra
+- Botun düzgün çalışması için hem kanala hem gruplara admin olarak eklenmesi gerekir.
