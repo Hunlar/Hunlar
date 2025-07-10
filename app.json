@@ -1,0 +1,22 @@
+{
+  "name": "HunlarApp",
+  "description": "Hunlar Telegram bot deployment",
+  "repository": "https://github.com/Hunlar/Hunlar",
+  "keywords": ["telegram", "bot", "heroku"],
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Telegram bot token",
+      "required": true
+    }
+  },
+  "scripts": {
+    "postdeploy": "echo Uygulama dağıtımı tamamlandı!"
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "addons": []
+}
